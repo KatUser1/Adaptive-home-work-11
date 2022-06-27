@@ -1,0 +1,955 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    width: 100vw;
+    position: relative;
+    z-index: 5;
+}
+
+body{
+    overflow: hidden;
+    overflow-y:scroll;
+}
+
+.blurblue{
+    position: absolute;
+    width: 1579px;
+    height: 1579px;
+    top: -65px;
+    right: auto;
+    background: url("./images/Ellipse 2.png") no-repeat;
+    z-index: -5;
+}
+
+.blurblue-second{
+    position: absolute;
+    width: 1579px;
+    height: 1579px;
+    top: 1000px;
+    left: 80%;
+    background: url("./images/Blur.png") no-repeat;
+    z-index: -5;
+}
+
+
+.menuheader{
+    width: 1076px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding:50px 0 105px;
+}
+
+.logo{
+    display: inline-flex;
+    padding: 4px 0;
+    align-items: center;
+}
+
+header a:hover{
+    color: #fdfbfb;
+    text-shadow: 3px 2px 2px #357fc9;
+}
+
+.logo a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #272D38;
+    margin-right: 502px;
+    display: contents;
+    text-align: center;
+ }
+.logo a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #272D38;
+    margin-right: 502px;
+    display: contents;
+    text-align: center;
+}
+nav ul li a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #272D38;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li{
+   padding: 2px 45px  ;
+}
+
+.container {
+    width: 1065px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main-text{
+    width: 55%;
+}
+
+.box-usual{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.box-usual .main-text{
+    width: 50%;
+    padding-left: 100px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-bottom: 24px;
+}
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+    text-align: left;
+}
+
+button {
+    width: 167px;
+    height: 48px;
+    background: #8EADD5;
+    border-radius: 8px;
+    border: none;
+    margin: 40px 0;
+}
+
+button a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+button:hover {
+    cursor: grab;
+    text-shadow: 2px 2px 4px #0b25cc;
+    box-shadow: 3px 5px 5px #8fbae5;
+    transform: scale(1.2);
+}
+
+.link{
+    width: 915px;
+    margin: 150px auto 130px;
+}
+
+.link p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #667085;
+    margin: 16px auto;
+    text-align: center;
+}
+.networks{
+    width: 915px;
+    height: 86px;
+    padding: 24px;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.link ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.networks ul li a img:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(3px 5px 2px #4657c5);
+
+}
+
+h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-bottom: 26px;
+}
+
+.box-usual-second .main-text {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.box-usual p, .box-usual-second p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+    position: relative;
+}
+.box-usual p:after, .box-usual-second p:after {
+    content: url("./images/Arrow 1.png");
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+}
+
+.picture{
+    width: 450px;
+    height: 450px;
+}
+
+.box-usual-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.box-last{
+    margin-bottom: 136px;
+}
+.box-last h2{
+    margin: 16px auto 38px;
+    text-align: center;
+}
+
+.box-last p{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+}
+
+.otheresay{
+    display: flex;
+    justify-content: space-between;
+
+}
+.face{
+    width: 129px;
+    height: 130px;
+    background: url('./images/western-man-4975942-4159828 1.png') no-repeat center;
+    background-size:100%;
+    border: 1px solid rgba(222, 220, 219, 0.5);
+    border-radius: 96px;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.people p{
+    margin:8px auto 27px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+}
+
+.people{
+    width: 345px;
+    height: 334px;
+    padding: 32px;
+    background: #F6F6F6;
+    border-radius: 20px;
+}
+
+span{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+
+.face2 {
+    width: 129px;
+    height: 130px;
+    background: url("./images/asian-woman-4975939-4159825 1.png") no-repeat center;
+    background-size:100%;
+    border: 1px solid rgba(222, 220, 219, 0.5);
+    border-radius: 96px;
+    margin: 0 auto;
+    z-index: 5;
+}
+.face3 {
+    width: 129px;
+    height: 130px;
+    background: url("./images/black-woman-4975941-4159827 1.png") no-repeat center;
+    background-size:100%;
+    border: 1px solid rgba(222, 220, 219, 0.5);
+    border-radius: 96px;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.final{
+    margin: 0 auto 138px;
+    background: #F6F6F6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.final-text{
+    width: 50%;
+    padding: 100px 90px 100px 83px;
+
+}
+.final-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 16px;
+    text-transform: none;
+}
+
+.final-text h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: #272D38;
+    text-transform: none;
+}
+
+.final button{
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.final-image{
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100vw;
+    background: #F6F6F6;
+}
+
+footer>.container{
+    display: flex;
+    padding: 105px 0 18px;
+    flex-direction: column;
+}
+
+footer p{
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #272D38;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    text-align: left;
+    flex-direction: row;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-bottom: 8px;
+}
+footer ul li{
+    padding-bottom: 24px;
+}
+footer ul li a{
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 150%;
+     text-transform: capitalize;
+     color: #272D38;
+}
+
+footer ul li a:hover{
+    transform: scale(1.2);
+    color: #357fc9;
+    text-shadow: 3px 2px 2px #fdfbfb;
+}
+
+footer span {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    text-align:left;
+    margin-top: 48px;
+}
+
+footer p{
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #272D38;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 1700px) {
+    .blurblue-second{
+        left:78%
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .blurblue-second{
+        left:70%
+    }
+}
+@media screen and (max-width: 1160px) {
+    .menuheader {
+        width: 90vw;
+    }
+    .container{
+        width: 90vw;
+    }
+    h2, .final-text h2 {
+        font-size: 41px;
+    }
+
+    .blurblue-second{
+        left: 60%;
+    }
+    .people {
+        width: 295px;
+    }
+    .main-text {
+        width: 50vw;
+    }
+    .box-usual .main-text {
+        padding-left: 78px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    h1{
+        font-size: 50px;
+    }
+
+    .box-usual .main-text {
+        padding-left: 26px;
+    }
+    .blurblue-second{
+        left: 55%;
+    }
+
+    .box p, .final-text p, .box-usual p, .box-usual-second p{
+        font-size: 14px;
+    }
+
+    h2, .final-text h2 {
+        font-size: 36px;
+    }
+    .main-text{
+        padding-right: 78px;
+    }
+    .blurblue{
+        top: -128px;
+        right: -156px;
+    }
+    .people{
+        width: 31%;
+    }
+
+    .image{
+    width: 90%;
+    height: 90%;
+    }
+}
+
+@media screen and (max-width: 1035px) {
+
+    h1{
+        font-size: 42px;
+    }
+    h2{
+        font-size: 36px;
+    }
+
+    .box, .box-usual, .box-usual-second {
+        justify-content: space-around;
+    }
+
+    .blurblue-second{
+        left: 47%;
+    }
+    .people span {
+        font-size: 12px;
+    }
+
+    .networks{
+        width: 776px;
+        margin: 0 auto;
+    }
+    .final-text {
+        padding: 100px 56px 100px 56px;
+    }
+
+}
+@media screen and (max-width: 980px) {
+    .container {
+        width: 95%;}
+
+    .blurblue-second {
+        left: 50%;
+    }
+
+    .menuheader nav{
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+    .footer {
+        width: 90vw;
+    }
+    .networks {
+    width: 726px;
+    margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .container {
+        width: 560px;
+    }
+
+    .blurblue-second {
+        left: 50%;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box, .box-usual, .box-usual-second {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .box-usual, .box-usual-second {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .box-usual .main-image, .box-usual-second .main-image {
+        margin-top: 78px;
+    }
+
+    .box-usual-second {
+        margin: 120px auto;
+    }
+
+    .box-usual-second .main-text {
+        width: fit-content;
+        padding-right: 0;
+    }
+
+    .main-text {
+        width: 100%;
+        padding-right: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1, h2, p {
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+    .box p{
+        font-size: 18px;
+    }
+
+    button {
+        width: 167px;
+        height: 48px;
+        margin: 24px 194px 48px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .link {
+        width: 480px;
+        margin: 120px auto 88px;
+    }
+
+    .networks {
+        width: 460px;
+        padding: 24px 16px;
+    }
+
+    .icon-net {
+        width: 90px;
+    }
+
+    .box-usual .main-text {
+        width: 100%;
+        padding-left: 0;
+    }
+
+
+    br {
+        display: none;
+    }
+
+
+    .final-text p, .box-usual p, .box-usual-second p {
+        font-size: 16px;
+        padding: 0 80px;
+    }
+
+    .box-usual p:after, .box-usual-second p:after {
+        transform: rotate(90deg);
+        bottom: -45px;
+        left: 50%;
+    }
+
+    .otheresay{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .people {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .final {
+        padding: 30px 74px;
+
+     }
+
+    .final-image {
+        display: none;
+    }
+
+    .final-text {
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .final-text p {
+        padding: 0 40px;
+    }
+
+    .final button{
+        margin: 32px 128px 0;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        padding: 0 20px;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .company, .info ul{
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    footer span{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    footer ul li {
+        padding-bottom: 16px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 690px) {
+
+    .container {
+        width: 378px;
+    }
+
+    .blurblue {
+        width: 749px;
+        height: 749px;
+        top: -312px;
+        right: 222px;
+    }
+
+    .blurblue-second {
+        width: 1079px;
+        height: 1079px;
+        left: 46%;
+    }
+
+    .menuheader {
+        width: 380px;
+        justify-content: space-between;
+    }
+
+    .box, .box-usual, .box-usual-second {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .box-usual, .box-usual-second {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .box-usual .main-image, .box-usual-second .main-image {
+        margin-top: 78px;
+    }
+
+    .box-usual-second {
+        margin: 120px auto;
+    }
+
+    .box-usual-second .main-text {
+        width: fit-content;
+        padding-right: 0;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    h1, h2, p {
+        align-items: center;
+        text-align: center;
+    }
+
+    h2 {
+        width: 380px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+    .box p {
+        font-size: 16px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .box-usual .main-text {
+        padding-left: 0;
+    }
+
+    .final-text p, .box-usual p, .box-usual-second p {
+        font-size: 14px;
+        width: 380px;
+    }
+
+    button a {
+        font-size: 14px;
+    }
+
+    button {
+        width: 140px;
+        height: 35px;
+        margin: 24px 118px 48px;
+    }
+
+    .main-text {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    .main-image {
+        width: 358px;
+        height: 358px;
+    }
+
+    .link {
+        width: 380px;
+        margin: 120px auto 88px;
+    }
+
+    .networks {
+        width: 348px;
+        padding: 24px 16px;
+    }
+
+    .icon-net {
+        width: 70px;
+    }
+
+    .link p {
+        margin: 0 auto 16px;
+    }
+
+    .box-usual p:after, .box-usual-second p:after {
+        transform: rotate(90deg);
+        bottom: -45px;
+        left: 50%;
+    }
+
+    .box-last p {
+        font-size: 12px;
+    }
+
+    .otheresay {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .people {
+        width: 374px;
+        height: 334px;
+    }
+
+    .box-last p {
+        font-size: 18px;
+    }
+
+    .people span {
+        font-size: 14px;
+    }
+
+    .people {
+        padding: 32px 45px;
+        margin-bottom: 40px;
+    }
+
+    .final {
+        width: 379px;
+        height: 350px;
+        align-items: center;
+        padding: 56px 35px 48px;
+    }
+
+    .final-image {
+        display: none;
+    }
+
+    .final-text {
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .final-text h2 {
+        font-size: 32px;
+        text-align: center;
+        width: fit-content;
+    }
+
+    .final-text p {
+        font-size: 16px;
+        width: fit-content;
+    }
+
+    .final button {
+        margin: 48px 82px 0;
+    }
+
+    footer {
+        margin: 104px auto 24px;
+    }
+
+    .info {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    footer ul, .company {
+        margin-bottom: 72px;
+        width: 100%;
+    }
+
+    footer ul li a {
+        line-height: 100%;
+    }
+
+    footer span {
+        justify-content: center;
+        width: 190px;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .blurblue-second{
+        left: 20%;
+    }
+}
